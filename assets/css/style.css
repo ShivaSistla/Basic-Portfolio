@@ -3,38 +3,45 @@ header { background-color:#ffffff;
          border: 2px solid #cccccc;
          }
          .box4 {
-            background: teal;
-            color: white;
-            border: 3px solid #353f4f;
-            width: 25%;
-            padding: 30px;
-            box-sizing: border-box;
-            margin: 30px;
+          background: teal;
+          color: white;
+          border: 3px solid #353f4f;
+          width: 12%;
+          padding: 0px;
+          box-sizing: border-box;
+          margin: 7px;
           }
-          #links {
+          .box5 {
             float: left;
-            width: 33.3%;
-            padding: 16px;
+            position: absolute;
+            right: 223px;
+            top: 14px;
           }
+          h1{margin-left:120px;}
 #bio-image { float: left;
             width: 200 px;}
 body {
-    background-color:white;
+    background-color:#dddddd;
     font-family: Arial, Helvetica, sans-serif;
     color: #2e2e37;
     margin: 0px;
     line-height:1.5;
   }
-
-  #contact-info,#main-bio  {
-    background:white;
-    color: black;
-    border: 3px solid #dddddd;
-    width: 800px;
-    padding: 30px;
-    box-sizing: content-box;
-    margin: 30px;
-    padding-bottom: 50px;
+.container .portfolio{
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+}
+ #contact-info, #main-bio,#Portfolio {
+    background-color: white;
+    border: 2px solid #dddddd;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    padding: 20px;
   }
   
   .box2 {
@@ -50,15 +57,15 @@ body {
     background: teal;
     color: white;
     border: 3px solid #353f4f;
-    width: 15%;
-    padding: 10px;
+    width: 11%;
+    padding: 3px;
     box-sizing: border-box;
-    margin: 10px;
+    margin: -1px;
   }
-  #portfolio { padding-bottom: 50px;}
   .footer {
-    height: 50px;
-    margin-top: -50px;
-    background: #666666;
+    position: sticky;
+    bottom: 0;
+    background-color: #666666;
+    padding: 15px;
   }
  
