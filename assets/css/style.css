@@ -43,25 +43,6 @@ body {
     overflow: hidden;
     padding: 20px;
   }
-  
-  .box2 {
-    background: #2176AE;
-    color: #bbd2e4;
-    border: 3px solid #353f4f;
-    width: 300px;
-    padding: 50px;
-    box-sizing: border-box;
-    margin: 30px;
-  }
-  .box1 {
-    background: teal;
-    color: white;
-    border: 3px solid #353f4f;
-    width: 11%;
-    padding: 3px;
-    box-sizing: border-box;
-    margin: -1px;
-  }
   .footer {
     position: sticky;
     bottom: 0;
